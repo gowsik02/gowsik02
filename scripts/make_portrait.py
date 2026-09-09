@@ -1,5 +1,5 @@
 """
-make_portrait.py  —  sanjay-offl ASCII portrait generator
+make_portrait.py  —  gowsik02 ASCII portrait generator
 Converts a photo to an animated ASCII SVG using SMIL typing animation.
 
 Usage:

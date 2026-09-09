@@ -1,11 +1,11 @@
 """
-generate_stats.py  —  sanjay-offl GitHub profile stats
+generate_stats.py  —  gowsik02 GitHub profile stats
 Generates: stats.svg, streak.svg, langs.svg, year.svg
            hd-about.svg, hd-stack.svg, hd-projects.svg,
            hd-stats.svg, hd-about-this-page.svg
 
 Requires only the Python standard library.
-Run with:  GITHUB_TOKEN=<token> GH_LOGIN=sanjay-offl python3 scripts/generate_stats.py
+Run with:  GITHUB_TOKEN=<token> GH_LOGIN=gowsik02 python3 scripts/generate_stats.py
 """
 
 import json, os, urllib.request, urllib.parse, base64
@@ -15,7 +15,7 @@ from datetime import datetime, timezone, timedelta
 # Config
 # ─────────────────────────────────────────────────────────────────────────────
 TOKEN    = os.environ["GITHUB_TOKEN"]
-LOGIN    = os.environ.get("GH_LOGIN", "sanjay-offl")
+LOGIN    = os.environ.get("GH_LOGIN", "gowsik02")
 OUT_DIR  = "."          # repo root — where the README expects the files
 
 FILL        = "#c9d1d9"   # main text / bar colour (GitHub dark text)
